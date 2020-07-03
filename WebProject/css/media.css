@@ -1,0 +1,133 @@
+@media all and (min-width: 1150px) {
+	/*анимация кнопок*/
+	.nav-link:hover {
+		background-color: black;
+		color: white;
+		transition: 0.8s;
+	}
+
+	.tsp:hover {
+		background-color: purple;
+		border: 2px solid purple;
+		color: white;
+		transition: 0.8s;
+	}
+
+	.green:hover {
+		background-color: brown;
+		border: 2px solid brown;
+		color: orange;
+		transition: 0.8s;
+	}
+
+	.second-item:hover {
+		background-color: brown;
+		color: white;
+		transform: scale(1.05); 
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+		cursor: pointer;
+		transition: 0.8s;
+	}
+	
+	.second-item:hover .readmore{
+		color: white;
+	}
+	.readmore:hover {
+		cursor: pointer;
+	}
+	.g:hover {
+		background-color: blue;
+		color: white;
+		transition: 0.8s;
+
+	}
+	.fourth-box:hover {
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.7);
+}
+	.fourth-item:hover {
+		transform: scale(1.05);
+		transition: 0.8s;
+	}
+}
+@media all and (max-width: 938px) {
+
+	.nav-container{
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.logo, .search-container, .topnav {
+		display: inline-block;
+	}
+	h1 {
+		font-size: 9vw;
+	}
+	.header-btn{
+		width: 90vw;
+		height: 60px;
+		margin-top: 15px; 
+	}
+	.green {
+		margin-left: 0;
+	}
+
+	.first-item, .second-item {
+		width: 90%;
+		margin: 20px auto;
+		padding-left:10%;
+		padding-right:10%;
+	}
+	.fourth-item {
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+	.first-box, .contact-box {
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.text {
+		width: 80%;
+		font-size: 2rem;
+	}
+	.g {
+		width: 100%;
+		border-radius: 0;
+		margin-bottom: 0;
+		background-color: blue;
+		color: white;
+		border-color: transparent;
+
+	}
+	.input>input {
+		width: 100%;
+		margin-top: 20px;
+
+	}
+	.img {
+		width: 100%;
+	}
+	.tabs>label {
+		width: 100%;
+		height: 60px;
+	}
+	.tabs>label[for="tab_2"] {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	.tabs>label[for="tab_3"] {
+		 margin-left: 0px;
+		 margin-top: 10px;
+	}
+	.tabs>label[for="tab_4"] {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	.blueel{
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+	padding: 25px 25px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100%, 100% 70%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+}
